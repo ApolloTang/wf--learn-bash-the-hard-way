@@ -7,8 +7,8 @@ $ ls .*
 The asterisk (*) above match:
 
 ```
-'file-name'
-'folder-name/'
+'<file-name>'
+'<folder-name>'
 '.'
 ''
 ```
@@ -33,3 +33,7 @@ echo .* * | tr ' ' '\n'
 
 
 <img src="./md-assets/Screen Shot 2021-10-09 at 12.31.57.png" width=200px/>
+
+
+---
+**Note that `.` has no special meaning in glob expansion.**
